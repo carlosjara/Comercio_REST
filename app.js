@@ -23,8 +23,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/getUsers', indexRouter);
+app.use('/getUserNameById', indexRouter);
 app.use('/getBooks', indexRouter);
 app.use('/BooksById', indexRouter);
+app.use('/userByUsername', indexRouter);
+app.use('/isUser', indexRouter);
+app.use('/userValidated', indexRouter);
+app.use('/getUSerRole', indexRouter);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -45,3 +52,5 @@ app.listen(8081,function () {
     console.log('Corriendo en el puerto: 8081');
 });
 module.exports = app;
+
+
