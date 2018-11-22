@@ -1,7 +1,7 @@
 # Comercio_REST
 Servidor Modelo Control
 
-### Descripcion
+### Descripción
 
 En este servidor se podran encontrar todos los fuentes (nodejs express, handlebars y mysql) asociados a servicios REST y a conexion con la base de datos MySQL, se busca dar detallada explicacion de cada carpeta.
 
