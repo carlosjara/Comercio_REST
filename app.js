@@ -24,12 +24,32 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/getUsers', indexRouter);
 app.use('/getUserNameById', indexRouter);
-app.use('/getBooks', indexRouter);
-app.use('/BooksById', indexRouter);
 app.use('/userByUsername', indexRouter);
 app.use('/isUser', indexRouter);
 app.use('/userValidated', indexRouter);
 app.use('/getUSerRole', indexRouter);
+
+app.use('/getBooks', indexRouter);
+app.use('/BooksById', indexRouter);
+
+app.use('/getCartItems_o_id', indexRouter);
+app.use('/getCartItems', indexRouter);
+app.use('/CartItems_id_idUSer', indexRouter);
+app.use('/Cantidad_id_idUSer', indexRouter);
+app.use('/Update_Cant_item', indexRouter);
+app.use('/del_one_item', indexRouter);
+app.use('/del_all_item', indexRouter);
+app.use('/delete_Cart_byuser', indexRouter);
+app.use('/newItemCart', indexRouter);
+app.use('/CartItems_id', indexRouter);
+app.use('/getSumItemCostById', indexRouter);
+app.use('/getOrderById', indexRouter);
+
+
+app.use('/save_history_created', indexRouter);
+app.use('/getHistory', indexRouter);
+app.use('/getLastStatusToken_History', indexRouter);
+app.use('/updateTokenStatus', indexRouter);
 
 
 
