@@ -23,12 +23,12 @@ En esta carpeta se encuentran los servicios (get,post) que pueden ser consumidos
 
 En esta carpeta se encuentran los templates con handlebars por defecto en caso de que se desee consumir urls (si son rederizados).
 
-## app.js
+#### [app.js](https://github.com/carlosjara/Comercio_REST/blob/master/app.js)
 
 En este archivo se encuentra la configuracion principal de este servidor, el puerto de acceso y configuracion de handlebars para visualizacion de templates a mostrar.
 
 
-#### [Package.json](https://github.com/carlosjara/Comercio_VW/blob/master/package.json)
+#### [Package.json](https://github.com/carlosjara/Comercio_REST/blob/master/package.json)
 
 Se encuentran los complementos usandos en este desarrollo, al ejecutar el comando
 ```html
